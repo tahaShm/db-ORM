@@ -1,0 +1,20 @@
+{
+    "name": "freelancer 1",
+    "email": "taha1@gmail.com",
+    "phoneNumber": "09371863994",
+    "password": "pass1",
+    "image": "https://images.com/image1",
+    "degrees": "a,b,c",
+    "experiences": "a,b,c",
+    "skills": "a,b,c",
+    "withdrawIds": []
+}
+
+{
+    "withdrawTime": "1400/01/02",
+    "wNum": "12345678",
+    "amount": "320000",
+    "status": "successful",
+    "freelancerId": 1
+}
+

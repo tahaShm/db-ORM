@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "postgres",
   "password": "Taha1378",
-  "database": "db-lab2",
+  "database": "dblab2-f1",
   "entities": ["dist/**/**.entity{.ts,.js}"],
   "synchronize": true
 }
