@@ -18,3 +18,34 @@
     "freelancerId": 1
 }
 
+{
+    "name": "employer 1",
+    "email": "taha1@gmail.com",
+    "phoneNumber": "09371863994",
+    "password": "pass1",
+    "image": "https://images.com/image1",
+    "orderIds": [],
+    "ticketIds": []
+}
+
+{
+    "creationTime": "1400/01/12",
+    "ticketNumber": 8927823749875,
+    "type": "general",
+    "title": "simple question",
+    "desc": "this is a simple question!",
+    "employerId": 1
+}
+
+{
+    "name": "order 1",
+    "descText": "this is order 1.",
+    "size": 4,
+    "neededSkills": "a,b",
+    "type": "technical",
+    "dueDate": "1400/04/01",
+    "area": "software",
+    "minGuarantee": 40,
+    "descFile": "https://desc.com/desc1",
+    "employerId": 1
+}

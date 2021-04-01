@@ -1,7 +1,7 @@
 import { ApiProperty } from '@nestjs/swagger';
 
 export default class TicketDto {
-  @ApiProperty()
+  @ApiProperty({ description: '1xxx/xx/xx' })
   readonly creationTime: string;
 
   @ApiProperty()

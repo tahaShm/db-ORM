@@ -10,13 +10,13 @@ export default class OrderDto {
   @ApiProperty()
   readonly size: number;
 
-  @ApiProperty()
+  @ApiProperty({ description: 'a,b,c' })
   readonly neededSkills: string;
 
   @ApiProperty()
   readonly type: string;
 
-  @ApiProperty()
+  @ApiProperty({ description: '1xxx/xx/xx' })
   readonly dueDate: string;
 
   @ApiProperty()

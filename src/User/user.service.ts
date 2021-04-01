@@ -19,7 +19,6 @@ export class UserServices {
   }
 
   async getBooksOfUser(userID: number): Promise<BookEntity[]> {
-    console.log(typeof userID);
     const user: UserEntity = await UserEntity.findOne({
       where: { id: userID },
       relations: ['books'],
@@ -28,12 +27,12 @@ export class UserServices {
   }
 
   async remove(id: number): Promise<any> {
-    return await UserEntity.delete({id});
+    return await UserEntity.delete({ id });
   }
 
   async update(id: number, userDetails: CreateUserDto): Promise<any> {
     const userEntity: any = {};
     userEntity.name = userDetails.name;
-    return await UserEntity.update({id}, userEntity);
+    return await UserEntity.update({ id }, userEntity);
   }
 }
